@@ -1,0 +1,180 @@
+<% include ./partials/header.ejs %>
+<div class="bg-zinc-900 min-h-screen w-full">
+  <!-- nav bar  -->
+  <div class="flex flex-row justify-between h-32 p-8 mb-[2rem]">
+    <div class="">
+      <a class="text-zinc-300 hover:text-white" href="/"
+        ><i class="fa-solid fa-angle-left"></i> Back</a
+      >
+    </div>
+    <div class="flex justify-evenly">
+      <a
+        class="p-2 underline underline-offset-8 text-zinc-300 hover:text-white"
+        href="/"
+        >Home</a
+      >
+      <a class="p-2 text-zinc-300 hover:text-white" href="/contact"
+        >Contact Us</a
+      >
+    </div>
+  </div>
+
+  <!-- about us -->
+  <div class="relative">
+    <div
+      class="absolute lg:top-[3rem] sm:top-[-4rem] text-9xl lg:left-[1.3rem] font-bold text-white w-full flex justify-center"
+    >
+      <h1 class="text-white">
+        <span class="lg:text-black sm:text-white">AB</span>OUT US
+      </h1>
+    </div>
+  </div>
+
+  <!-- about me -->
+  <div
+    class="mb-32 w-[full] lg:h-[40rem] sm:h-[70rem] flex lg:flex-row sm:flex-col lg:overflow-hidden sm:justify-center lg:justify-evenly items-center"
+  >
+    <div class="h-[35rem] w-[30rem] bg-white rounded-[2rem]">
+      <img
+        class="lg:h-[35rem] sm:h-[40rem] w-[40rem] lg:rounded-[2rem] sm:rounded-[2rem] border-[.4rem]"
+        src="/images/owner.jpg"
+        alt=""
+        srcset=""
+      />
+    </div>
+    <div
+      class="h-[40rem] w-[full] relative sm:top-[10.1rem] lg:top-[13rem] text-white tracking-wide font-medium whitespace-pre-line"
+    >
+      <span>hey everyone !! </span>
+      <span class="border-b-[0.3rem] border-white"
+        >I am Lakhan, Mr. Lakhan B. Thakare, founder of Mauli Builds</span
+      >
+      <br />
+      Mauli Builds is a renowned company with over three decades of experience
+      in the construction industry. Since our inception in 1983, we have been
+      committed to delivering exceptional products and services to our
+      customers. With a focus on ethical business practices and unwavering
+      transparency, we have earned a reputation for reliability and excellence
+      in the market.
+    </div>
+  </div>
+
+  <!-- my journey -->
+  <div class="h-48 flex flex-col items-center justify-center mb-32">
+    <div class="bg-orange-500 text-white py-4 px-6 transform -skew-x-12 m-4">
+      <h1 class="text-3xl font-bold uppercase tracking-widest">MY JOURNEY</h1>
+    </div>
+    <div class="text-white text-center ml-8 mr-8">
+      <p>
+        Our journey began in 1983 when Mauli Builds was established with a
+        vision to revolutionize the construction sector. Over the years, we have
+        continuously evolved and diversified our offerings to meet the changing
+        needs of our clients. In 2022, we embarked on a new chapter by
+        introducing a range of innovative RCC and Precast concrete products for
+        both commercial and residential use. This expansion marked a significant
+        milestone in our journey, further solidifying our position as a trusted
+        leader in the industry. Today, supported by a rich vendor base and a
+        widespread distribution network, we continue to uphold our commitment to
+        quality and customer satisfaction, ensuring that Mauli Builds remains at
+        the forefront of the construction business.
+      </p>
+    </div>
+  </div>
+
+  <!-- about company -->
+  <div class="mb-32 w-full flex flex-col justify-center items-center">
+    <div class="bg-orange-500 text-white py-4 px-6 transform -skew-x-12 m-4">
+      <h1 class="text-3xl font-bold uppercase tracking-widest">
+        ABOUT PRODUCTS
+      </h1>
+    </div>
+    <div class="flex flex-wrap items-center justify-center">
+      <div class="h-64 w-64 bg-white m-2">
+        <img class="h-full w-full p-2" src="images/comp.jpeg" alt="" />
+      </div>
+      <div class="h-64 w-64 bg-white m-2">
+        <img class="h-full w-full p-2" src="images/comp1.jpeg" alt="" />
+      </div>
+      <div class="h-64 w-64 bg-white m-2">
+        <img class="h-full w-full p-2" src="images/comp2.jpeg" alt="" />
+      </div>
+      <div class="h-64 w-64 bg-white m-2">
+        <img class="h-full w-full p-2" src="images/comp3.jpeg" alt="" />
+      </div>
+    </div>
+    <div class="text-white text-center m-8">
+      <p>
+        "ABOUT PRODUCTS Mauli Builds proudly presents an extensive lineup of
+        construction essentials, each meticulously crafted to meet the diverse
+        needs of our clientele. Step into the world of timeless elegance with
+        our premium paver blocks, designed to transform outdoor spaces into
+        captivating masterpieces of design and functionality. Discover the
+        sustainable innovation of our fly ash bricks, engineered for strength
+        and eco-consciousness, ensuring a greener tomorrow with every build.
+        Explore our versatile range of cement products, from tiles to precast
+        elements, offering durability and architectural finesse for projects of
+        all scales. Experience the precision and efficiency of our blocks
+        fitting solutions, seamlessly integrating every component to perfection,
+        setting new standards in construction excellence. At Mauli Builds, our
+        products are not just materials - they are the building blocks of
+        dreams, crafted with passion and dedication to bring your vision to
+        life."
+      </p>
+    </div>
+  </div>
+  <!-- footer -->
+  <div class="relative inset-x-0 bottom-0">
+    <footer class="footer">
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <ul class="social-icon">
+        <li class="social-icon__item">
+          <a class="social-icon__link" href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+        <li class="social-icon__item">
+          <a class="social-icon__link" href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+        <li class="social-icon__item">
+          <a class="social-icon__link" href="#">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+        <li class="social-icon__item">
+          <a class="social-icon__link" href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li class="menu__item"><a class="menu__link" href="/">Home</a></li>
+        <li class="menu__item">
+          <a class="menu__link" href="/card">Products</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="/about">About</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="/register">Sign In</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="/login">Login</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="/logout">Logout</a>
+        </li>
+      </ul>
+      <p>&copy;2021 Mauli Builds | All Rights Reserved</p>
+    </footer>
+  </div>
+
+  <!-- .... -->
+</div>
+<% include ./partials/footer.ejs %>

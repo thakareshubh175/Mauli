@@ -1,0 +1,132 @@
+<% include ./partials/header.ejs %>
+<div
+  class="min-h-screen w-full relative bg-center bg-cover bg-[url('https://static.vecteezy.com/system/resources/previews/005/539/462/non_2x/simple-minimalist-yellow-circles-decorative-background-free-vector.jpg')]"
+>
+  <div class="flex flex-row justify-between h-32 p-8">
+    <div class="">
+      <a class="text-zinc-500 hover:text-white" href="/"
+        ><i class="fa-solid fa-angle-left"></i> Back</a
+      >
+    </div>
+    <div class="flex justify-evenly">
+      <a
+        class="p-2 underline underline-offset-8 text-zinc-300 hover:text-black hover:font-bold"
+        href="/"
+        >Home</a
+      >
+      <a
+        class="p-2 text-zinc-300 hover:text-black hover:font-bold"
+        href="/about"
+        >About</a
+      >
+    </div>
+  </div>
+
+  <div
+    class="lg:w-[68rem] sm:w-[46.9rem] h-[34rem] flex sm:flex-col lg:flex-row items-center justify-evenly lg:m-[1rem] lg:mb-[10rem] sm:mb-[37rem]"
+  >
+    <div class="h-[32rem] w-[32rem] flex flex-col justify-center">
+      <div class="text-white font-bold text-3xl m-4">
+        <h1>Contact Us</h1>
+      </div>
+
+      <div class="bg--500 h-[28rem] w-[28rem]">
+        <div class="flex flex-row gap-10">
+          <i
+            class="fa-solid fa-location-dot lg:text-yellow-500 sm:text-black text-3xl"
+          ></i>
+          <h2 class="text-lg text-white font-semibold">
+            Madsangavi, Nashik, Maharashtra 422102.
+          </h2>
+        </div>
+        <hr class="m-[2rem]" />
+
+        <div class="flex flex-row gap-10">
+          <i
+            class="fa-solid fa-phone lg:text-yellow-500 sm:text-black text-3xl"
+          ></i>
+          <h2 class="text-lg text-white font-semibold">
+            +91 9595300409,+91 7066959624
+          </h2>
+        </div>
+        <hr class="m-[2rem]" />
+
+        <div class="flex flex-row gap-10">
+          <i
+            class="fa-solid fa-envelope lg:text-yellow-500 sm:text-black text-3xl"
+          ></i>
+          <h2 class="text-lg text-white font-semibold">
+            maulibuilds@gmail.com
+          </h2>
+        </div>
+        <hr class="m-[2rem]" />
+      </div>
+    </div>
+
+    <div
+      class="h-[32rem] w-[32rem] flex flex-col justify-center bg-yellow-500 rounded-md"
+    >
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.2682274284657!2d73.85796437468774!3d19.99725412240736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddc1006e4ad98f%3A0x9774a268a6f9be3c!2sMauli%20Builds!5e0!3m2!1sen!2sin!4v1714321917986!5m2!1sen!2sin"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        class="h-[32rem] p-2"
+      ></iframe>
+    </div>
+  </div>
+
+  <!-- --------------------------------------------------------- -->
+  <!-- footer -->
+  <div class="relative inset-x-0 bottom-0">
+    <footer class="footer">
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <ul class="social-icon">
+        <li class="social-icon__item">
+          <a class="social-icon__link" href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+        <li class="social-icon__item">
+          <a class="social-icon__link" href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+        <li class="social-icon__item">
+          <a class="social-icon__link" href="#">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+        <li class="social-icon__item">
+          <a class="social-icon__link" href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li class="menu__item"><a class="menu__link" href="/">Home</a></li>
+        <li class="menu__item">
+          <a class="menu__link" href="/about">About</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="/register">Sign In</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="/login">Log in</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="/logout">Log out</a>
+        </li>
+      </ul>
+      <p>&copy;2021 Mauli Builds | All Rights Reserved</p>
+    </footer>
+  </div>
+</div>
+
+<% include ./partials/footer.ejs %>

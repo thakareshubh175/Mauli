@@ -1,0 +1,69 @@
+<% include ./partials/header.ejs %>
+
+<div
+  class="w-full h-screen bg-zinc-300 bg-center bg-cover bg-[url('https://images.unsplash.com/photo-1477414348463-c0eb7f1359b6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] flex items-center justify-center"
+>
+  <!-- <div class="w-72 h-96 bg-zinc-100"></div>   w-72 h-96=== is defualt-->
+  <div class="lg:w-[27vw] sm:w-96 bg-white px-20 py-10 rounded-[30px]">
+    <a
+      href="/"
+      class="relative text-black lg:left-[15rem] lg:top-[-1rem] sm:left-[13rem]"
+      ><i class="fa-solid fa-circle-xmark"></i
+    ></a>
+    <h1
+      class="text-3xl text-center font-semibold text-zinc-700 tracking-tighter capitalize leading-none"
+    >
+      Create New Account
+    </h1>
+    <form action="/register" method="post">
+      <input
+        class="block w-full px-3 py-2 mt-2 border-2 rounded-md"
+        type="text"
+        name="username"
+        id=""
+        placeholder="username"
+      />
+      <input
+        class="block w-full px-3 py-2 mt-2 border-2 rounded-md"
+        type="text"
+        name="fullname"
+        id=""
+        placeholder="full name"
+      />
+      <input
+        class="block w-full px-3 py-2 mt-2 border-2 rounded-md"
+        type="email"
+        name="email"
+        id=""
+        placeholder="email"
+      />
+
+      <input
+        class="block w-full px-3 py-2 mt-2 border-2 rounded-md"
+        type="password"
+        name="password"
+        id=""
+        placeholder="password"
+      />
+
+      <input
+        class="border-2 rounded-full block w-full px-3 py-2 mt-5 bg-red-600 text-white rounded-full"
+        type="submit"
+        value="Create New Account"
+      />
+      <p
+        class="text-xs font-semibold text-zinc-700 mt-10 w-3/4 mx-auto text-center"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+        temporibus libero non soluta magni veritatis.
+      </p>
+    </form>
+    <a
+      class="inline-block mt-7 text-sm font-semibold text-zinc-700 text-center w-full"
+      href="/login"
+      >Login Existing Account</a
+    >
+  </div>
+  <!-- h-[72] = in bracket we can take any value as we want -->
+</div>
+<% include ./partials/footer.ejs %>
